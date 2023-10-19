@@ -4,6 +4,7 @@
  * Created on: oct 2023
  * This program picks a random number between (1, 6)
 */
+
 // our variable for a random number
 let randomnumber: number
 
