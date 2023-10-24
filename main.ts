@@ -1,6 +1,6 @@
 /* Copyright (c) 2023 MTHS All rights reserved
  *
- * Created by: william s 
+ * Created by: william s
  * Created on: oct 2023
  * This program picks a random number between (1, 6)
 */
