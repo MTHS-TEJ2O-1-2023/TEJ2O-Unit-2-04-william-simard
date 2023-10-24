@@ -12,6 +12,6 @@ basic.clearScreen()
 basic.showIcon(IconNames.Happy)
 
 input.onButtonPressed(Button.A, function () {
-randomnumber = randint(1, 6)
-basic.showNumber(randomnumber)
+  randomnumber = randint(1, 6)
+  basic.showNumber(randomnumber)
 })
