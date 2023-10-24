@@ -1,8 +1,17 @@
-/* Copyright (c) 2020 MTHS All rights reserved
+/* Copyright (c) 2023 MTHS All rights reserved
  *
- * Created by: Mr. Coxall
- * Created on: Sep 2020
- * This program ...
+ * Created by: william s
+ * Created on: oct 2023
+ * This program picks a random number between (1, 6)
 */
 
-basic.showString('Hello, World!')
+// our variable for a random number
+let randomnumber: number
+
+basic.clearScreen()
+basic.showIcon(IconNames.Happy)
+
+input.onButtonPressed(Button.A, function () {
+  randomnumber = randint(1, 6)
+  basic.showNumber(randomnumber)
+})
